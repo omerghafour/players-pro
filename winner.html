@@ -10,15 +10,15 @@
 
     <p>
         Players: <input type="text" id="player"><br><br> Points: <input type="number" id="points"><br>
-        <button onclick="addPlayer();">Add</button>
+        <button onclick="playerJs.addPlayer();">Add</button>
         <hr>
     </p>
-    <button onclick="listPlayers();">List all players</button>
+    <button onclick="playerJs.listPlayers();">List all players</button>
 
     <p id="result"></p>
     <hr>
 
-    <button onClick="showWinner()"> Show Winners</button>
+    <button onClick="playerJs.showWinner()"> Show Winners</button>
     <p id="winner"></p>
     <hr>
     <script type="text/javascript" src="player.js"></script>
